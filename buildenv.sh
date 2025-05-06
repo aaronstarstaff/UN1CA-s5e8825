@@ -182,6 +182,8 @@ if [ "$RELEASE" = "false" ]; then
     echo "RELEASE IS SET TO FALSE"
     echo "DISABLING BROTLI COMPRESSION"
     echo "=============================="
+else
+    export RELEASE=true
 fi
 
 return 0
