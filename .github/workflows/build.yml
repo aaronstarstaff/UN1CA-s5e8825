@@ -14,7 +14,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [s5e8825 a25x, s5e8825 a33x, s5e8825 a35x, s5e8825 a53x, s5e8825 f34x, s5e8825 m34x]
+        target: [a26x, a35x, a54x, m35x]
 
     steps:
       - name: Checkout repo
